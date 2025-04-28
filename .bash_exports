@@ -1,0 +1,16 @@
+# Here are the export statements that will be sourced by .bashrc
+
+export PATH="$PATH:/home/andrem/julia-1.8.2/bin"
+export PLOTLY_RENDERER="plotly_mimetype+notebook"
+export PATH="$PATH:/home/andrem/Software"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# added by pipx (https://github.com/pipxproject/pipx)
+export PATH="/home/andrem/.local/bin:$PATH"
+
+# Created by `pipx` on 2024-02-13 11:00:17
+export PATH="$PATH:/home/andrem/.local/bin"
+
